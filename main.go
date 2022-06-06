@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+	//新增
 	r := gin.Default()
 
 	r = router.CollectRouter(r)
